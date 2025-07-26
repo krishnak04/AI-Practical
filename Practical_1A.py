@@ -1,3 +1,5 @@
+# Implement depth first search algorithm.  #
+
 from collections import deque
 
 def dfs(graph, start):
