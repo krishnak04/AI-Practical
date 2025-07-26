@@ -1,3 +1,5 @@
+# Solve water jug problem. #
+
 capacity = (12, 8, 5)
 x = capacity[0]
 y = capacity[1]
