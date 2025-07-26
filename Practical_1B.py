@@ -1,3 +1,5 @@
+# Implement breadth first search algorithm. #
+
 from collections import deque
 
 def bfs(graph, start):
