@@ -1,3 +1,5 @@
+# Solve tower of Hanoi problem. #
+
 def tower_of_hanoi(n, source, destination, intermediate):
     if n == 1:
         print(f"Move disc 1 from pole {source} to pole {destination}")
