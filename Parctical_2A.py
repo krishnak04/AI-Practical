@@ -1,3 +1,5 @@
+# Simulate 4-Queen / N-Queen problem. #
+
 N = int(input("Enter The Board Size And No.Of Queens To Be Placed:"))
 board = [0] * N
 
