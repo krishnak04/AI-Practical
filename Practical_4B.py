@@ -1,5 +1,3 @@
-# Solve water jug problem. #
-
 capacity = (12, 8, 5)
 x = capacity[0]
 y = capacity[1]
@@ -81,16 +79,18 @@ def get_all_state(state):
 
     return False
 
-# Start solving
-initial_state = (12, 0, 0)
-print("Start state:", initial_state)
-memory = {}
-ans = []
+# User input for initial state
+a = int(input("Enter initial amount in A (0 to 12): "))
+b = int(input("Enter initial amount in B (0 to 8): "))
+c = int(input("Enter initial amount in C (0 to 5): "))
+
+initial_state = (a, b, c)
 
 if get_all_state(initial_state):
     ans.reverse()
-    print("\nSolution Path:")
-    for state in ans:
-        print(state)
+    print("Steps to reach (6, 6, *):")
+    for step in ans:
+        print(step)
 else:
-    print("\nNo Solution found to reach (6, 6) from", initial_state)
+    print("No solution found from this initial state.")
+
